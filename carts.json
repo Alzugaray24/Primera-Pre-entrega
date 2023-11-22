@@ -1,0 +1,51 @@
+[
+  {
+    "idCart": "24fd047a-8b91-4238-be4d-a2de15dcde58",
+    "products": [
+      {
+        "id": "b04e6f54-e6b9-49db-8988-6f3637906c02",
+        "title": "Laptop1",
+        "description": "laptop normal",
+        "code": "23",
+        "price": 1234,
+        "status": true,
+        "stock": 32,
+        "category": "friend",
+        "thumbnails": [],
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "idCart": "992994de-3cf6-44ee-acfe-c42e8bac1bbe",
+    "products": []
+  },
+  {
+    "idCart": "eb0d8e98-b9ff-4611-b7ae-4a4d9397eccb",
+    "products": [
+      {
+        "id": "b04e6f54-e6b9-49db-8988-6f3637906c02",
+        "title": "Laptop1",
+        "description": "laptop normal",
+        "code": "23",
+        "price": 1234,
+        "status": true,
+        "stock": 32,
+        "category": "friend",
+        "thumbnails": []
+      },
+      {
+        "id": "ff086f9d-9871-44dd-9646-c82fa7a23e84",
+        "title": "Laptop1",
+        "description": "laptop normal",
+        "code": "23",
+        "price": 1234,
+        "status": true,
+        "stock": 32,
+        "category": "friend",
+        "thumbnails": [],
+        "quantity": 1
+      }
+    ]
+  }
+]

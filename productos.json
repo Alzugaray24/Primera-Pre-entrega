@@ -1,0 +1,35 @@
+[
+  {
+    "id": "b04e6f54-e6b9-49db-8988-6f3637906c02",
+    "title": "Laptop1",
+    "description": "laptop normal",
+    "code": "23",
+    "price": 1234,
+    "status": true,
+    "stock": 32,
+    "category": "friend",
+    "thumbnails": []
+  },
+  {
+    "id": "ff086f9d-9871-44dd-9646-c82fa7a23e84",
+    "title": "Laptop1",
+    "description": "laptop normal",
+    "code": "23",
+    "price": 1234,
+    "status": true,
+    "stock": 32,
+    "category": "friend",
+    "thumbnails": []
+  },
+  {
+    "id": "0b16dc70-a1f8-44cd-bc27-58f295c8bfc2",
+    "title": "Laptop1",
+    "description": "laptop normal",
+    "code": "23",
+    "price": 1234,
+    "status": true,
+    "stock": 32,
+    "category": "friend",
+    "thumbnails": []
+  }
+]
