@@ -1,11 +1,10 @@
-// products.router.js
+// products.router 
 import { Router } from "express";
 import { v4 as uuidv4 } from "uuid";
 import fs from "fs";
 
 const productRouter = Router();
 
-// Función para leer productos desde el archivo "productos.json"
 const readProductsFromFile = () => {
   try {
     const data = fs.readFileSync("productos.json", "utf-8");
@@ -15,7 +14,6 @@ const readProductsFromFile = () => {
   }
 };
 
-// Función para escribir productos en el archivo "productos.json"
 const writeProductsToFile = (products) => {
   fs.writeFileSync("productos.json", JSON.stringify(products, null, 2), "utf-8");
 };
@@ -80,7 +78,6 @@ productRouter.post("/", (req, res) => {
 
   products.push(product);
 
-  // Actualizar el archivo "productos.json" con los productos actualizados
   writeProductsToFile(products);
 
   res.json({
@@ -99,7 +96,6 @@ productRouter.put("/:pid", (req, res) => {
 
   products[index] = { ...products[index], ...req.body };
 
-  // Actualizar el archivo "productos.json" con los productos actualizados
   writeProductsToFile(products);
 
   res.json({

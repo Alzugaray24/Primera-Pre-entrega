@@ -1,4 +1,4 @@
-// carts.router.js
+// carts.router
 import { Router } from 'express';
 import { products } from './products.router.js';
 import { v4 as uuidv4 } from 'uuid';
