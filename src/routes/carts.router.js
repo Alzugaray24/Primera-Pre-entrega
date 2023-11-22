@@ -40,14 +40,12 @@ cartRouter.post('/', (req, res) => {
       });
   }
 
-  // Verifica si el producto existe en la lista de productos
   const product = products.find((el) => el.id === idProduct);
 
   if (!product) {
     return res.status(404).json({ error: 'Producto no encontrado.' });
   }
 
-  // Crea una nueva cart con un ID único y agrega el producto directamente
   const cart = {
     idCart: uuidv4(),
     products: [product],
